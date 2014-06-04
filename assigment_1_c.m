@@ -1,6 +1,6 @@
 function assigment_1_c
     pendulum = hamiltonian_pendulum();
-    pendulum.end_time = 40;
+    pendulum.end_time = 4000;
 
 	%method_explicit_euler
     solution_explicit_euler = apply_method(pendulum, @method_explicit_euler);

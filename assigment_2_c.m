@@ -47,11 +47,11 @@ function assigment_2_c
 		%method_runge
 %		solution_runge = apply_method_batch(pendulum, solution_runge, @method_runge);
 %		plot(solution_runge(:,1), solution_runge(:,2), 'y.');
-	%	hold on
+%		hold on
 
 		%method_bdf2
-	%	solution_bdf2 = apply_method_batch(pendulum, solution_bdf2, @solution_bdf2);
-	%	plot(solution_bdf2(:,1), solution_bdf2(:,2), '.');
+%		solution_bdf2 = apply_method_batch(pendulum, solution_bdf2, @solution_bdf2);
+%		plot(solution_bdf2(:,1), solution_bdf2(:,2), '.');
 		
 		hold off
 		file_name = strcat('assigment_2_c_', num2str(i * 2) ,'.png');

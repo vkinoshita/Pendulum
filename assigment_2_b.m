@@ -2,7 +2,7 @@ function assigment_2_b
     pendulum = hamiltonian_pendulum();
     pendulum.end_time = 2;
 
-	initial_values = face(20);
+	initial_values = face(100);
 
 	%method_explicit_euler
 	solution_explicit_euler = apply_method_batch(pendulum, initial_values, @method_explicit_euler);
