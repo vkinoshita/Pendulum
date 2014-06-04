@@ -1,6 +1,6 @@
 function hamiltonian = model_hamiltonian()
 	hamiltonian = struct(
-		"fuction"                       , @(x) 0,
+		"function"                      , @(x) 0,
 		"function_derivatives"          , @(x) 0,
 		"function_derivatives_gradient" , @(x) 0,
 		"step_size"                     , 0,
