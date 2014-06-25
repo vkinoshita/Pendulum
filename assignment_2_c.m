@@ -1,4 +1,4 @@
-function assigment_2_c
+function assignment_2_c
 	pendulum = hamiltonian_pendulum();
     pendulum.end_time = 2;
 
@@ -54,7 +54,7 @@ function assigment_2_c
 %		plot(solution_bdf2(:,1), solution_bdf2(:,2), '.');
 		
 		hold off
-		file_name = strcat('assigment_2_c_', num2str(i * 2) ,'.png');
+		file_name = strcat('assignment_2_c_', num2str(i * 2) ,'.png');
 		print('-dpng', file_name);
 
 	end

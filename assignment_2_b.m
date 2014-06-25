@@ -1,4 +1,4 @@
-function assigment_2_b
+function assignment_2_b
     pendulum = hamiltonian_pendulum();
     pendulum.end_time = 10;
 
@@ -44,7 +44,7 @@ function assigment_2_b
 %	plot(solution_bdf2(:,1), solution_bdf2(:,2), '.');
 	hold off
 
-	print('-dpng', 'assigment_2_b.png');
+	print('-dpng', 'assignment_2_b.png');
 
 	%plot(initial_values(:,1), initial_values(:,2), '.');
 end

@@ -1,6 +1,6 @@
-function assigment_1_c
+function assignment_1_c
     pendulum = hamiltonian_pendulum();
-    pendulum.end_time = 4000;
+    pendulum.end_time = 40;
 
 	%method_explicit_euler
     solution_explicit_euler = apply_method(pendulum, @method_explicit_euler);
@@ -65,4 +65,6 @@ function assigment_1_c
     subplot(3,3,8);
     plot(energy_solution_bdf2(:,1), energy_solution_bdf2(:,2));
     title('bdf2');
+
+    print('-dpng', 'assignment_1_c.png');
 end

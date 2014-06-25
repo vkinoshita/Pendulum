@@ -1,6 +1,6 @@
-function assigment_1_b
+function assignment_1_b
     pendulum = hamiltonian_pendulum();
-    pendulum.end_time = 4000;
+    pendulum.end_time = 40;
 
 	%method_explicit_euler
     solution_explicit_euler = apply_method(pendulum, @method_explicit_euler);
@@ -66,7 +66,7 @@ function assigment_1_b
     title('bdf2');
     hold off
 
-    print('-dpng', 'assigment_1_b.png');
+    print('-dpng', 'assignment_1_b.png');
 
 end
 
